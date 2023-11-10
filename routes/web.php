@@ -27,3 +27,5 @@ Route::prefix('/mahasiswa')->group(function () {
         return 'Halaman nilai untuk /nilai';
     });
 });
+
+
