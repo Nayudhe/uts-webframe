@@ -1,10 +1,10 @@
 @extends('layouts.index')
+
 @section('content')
-    <!-- Jumbotron -->
     <section class="jumbotron text-center">
-        <img src="{{asset('frame/img/bgst.jpg')}}" alt="Fillah Alfatih" width="200" class="rounded-circle img-thumbnail">
-        <h1 class="mt-1 display-4">Afifah Fauziah</h1>
-        <p class="lead">Student | Fullstack Developer</p>
+        <img src="{{asset('bayu.jpg')}}" alt="Hekel" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="mt-1 display-4">Liduina asih primandari, S.SI, MMSI</h1>
+        <p class="lead">Dosen | Fullstack Developer</p>
         
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path
@@ -27,7 +27,7 @@
 
             <div class="row justify-content-center fs-5 text-center">
                 <div class="col-lg-4 col-xs-12">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad maxime rem unde reprehenderit animi quam, quia consectetur a perferendis deserunt.</p>
+                    <p>Saya Liduina asih primandari merupakan salah satu dosen di kampus STMIK PPKIA Pradnya Paramita Malang</p>
                 </div>
 
                 <div class="col-lg-4 col-xs-12">
@@ -58,7 +58,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="{{asset('frame/img/projects/1.jpg')}}" class="card-img-top" alt="projects 1">
+                        <img src="{{asset('gatau/img/projects/1.jpg')}}" class="card-img-top" alt="projects 1">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -67,7 +67,7 @@
 
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="{{asset('frame/img/projects/2.jpg')}}" class="card-img-top" alt="projects 2">
+                        <img src="{{asset('gatau/img/projects/2.jpg')}}" class="card-img-top" alt="projects 2">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -76,7 +76,7 @@
 
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="{{asset('frame/img/projects/3.jpg')}}" class="card-img-top" alt="projects 3">
+                        <img src="{{asset('gatau/img/projects/3.jpg')}}" class="card-img-top" alt="projects 3">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="{{asset('frame/img/projects/4.jpg')}}" class="card-img-top" alt="projects 4">
+                        <img src="{{asset('gatau/img/projects/4.jpg')}}" class="card-img-top" alt="projects 4">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-md-4 mb-3">
                     <div class="card">
-                        <img src="{{asset('frame/img/projects/5.jpg')}}" class="card-img-top" alt="projects 5">
+                        <img src="{{asset('gatau/img/projects/5.jpg')}}" class="card-img-top" alt="projects 5">
                         <div class="card-body">
                             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         </div>
@@ -155,4 +155,7 @@
         </svg>
     </section>
     <!-- End Contact -->
+
 @endsection
+
+    <!-- Jumbotron -->

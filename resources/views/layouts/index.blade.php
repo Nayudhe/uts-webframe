@@ -16,22 +16,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{asset('oke/style.css')}}">
+    <link rel="stylesheet" href="{{asset('frame/style.css')}}">
 
-    <title>Nayudhe Sania Anako</title>
-    <link rel="icon" href="{{asset('oke/img/favicon/github.png')}}" type="image/gif" sizes="16x16">
+    <title>Bootstrap Portfolio | Nayudhe Sania Anako</title>
+    <link rel="icon" href="{{ asset('frame/img/favicon/github.png')}}" type="image/gif" sizes="16x16">
 </head>
 <body id="home">
 
     <!-- Navbar -->
-    @include('layouts.navbar')
+   @include('layouts.navbar')
     <!-- End Navbar -->
 
-    <section class="content">
-        @yield('content')
-      </section>
+<section class="content">
+    @yield('content')
+</section>
+
     <!-- Footer -->
-   @include('layouts.footer')
+    @include('layouts.footer')
     <!-- End Footer -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
